@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CopiaInterfazAmazonPrime</string>
+    <string name="inicio">Inicio</string>
+    <string name="originals">Originals</string>
+    <string name="series">Series</string>
+    <string name="pel_culas">Películas</string>
+    <string name="otros">Otros</string>
+    <string name="infantil">Infantil</string>
+    <string name="series_amazon_orriginals_y_exclusivas">Series Amazon Orriginals y exclusivas</string>
+</resources>
