@@ -230,12 +230,14 @@
             android:orientation="vertical">
 
             <ImageView
+                android:id="@+id/iw_pueblo"
                 android:layout_width="match_parent"
                 android:layout_height="160dp"
                 android:scaleType="centerCrop"
                 android:src="@mipmap/pueblo" />
 
             <TextView
+                android:id="@+id/tv_origials"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/series_amazon_orriginals_y_exclusivas"
@@ -244,6 +246,7 @@
                 android:textSize="16sp" />
 
             <HorizontalScrollView
+                android:id="@+id/hsv_originals"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
@@ -273,14 +276,16 @@
             </HorizontalScrollView>
 
             <TextView
+                android:id="@+id/tv_seguir_viendo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/series_amazon_orriginals_y_exclusivas"
+                android:text="@string/seguir_viendo"
                 android:textAllCaps="true"
                 android:textColor="@color/white"
                 android:textSize="16sp" />
 
             <HorizontalScrollView
+                android:id="@+id/hsv_seguir_viendo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
@@ -310,14 +315,16 @@
             </HorizontalScrollView>
 
             <TextView
+                android:id="@+id/tv_favoritos"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/series_amazon_orriginals_y_exclusivas"
+                android:text="@string/favortios"
                 android:textAllCaps="true"
                 android:textColor="@color/white"
                 android:textSize="16sp" />
 
             <HorizontalScrollView
+                android:id="@+id/hsv_favoritos"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
